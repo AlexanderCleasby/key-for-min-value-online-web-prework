@@ -5,3 +5,6 @@ def key_for_min_value(name_hash)
   name_hash.collect{|k,v|
   v}
 end
+
+
+key_for_min_value({:blake => 500, :ashley => 2, :adam => 1})
